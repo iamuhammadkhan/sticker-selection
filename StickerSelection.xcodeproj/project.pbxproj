@@ -9,13 +9,68 @@
 /* Begin PBXBuildFile section */
 		3EFDEC3A27970F9F00E3BB25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFDEC3927970F9F00E3BB25 /* AppDelegate.swift */; };
 		3EFDEC3C27970F9F00E3BB25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFDEC3B27970F9F00E3BB25 /* SceneDelegate.swift */; };
-		3EFDEC3E27970F9F00E3BB25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFDEC3D27970F9F00E3BB25 /* ViewController.swift */; };
-		3EFDEC4127970F9F00E3BB25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC3F27970F9F00E3BB25 /* Main.storyboard */; };
+		3EFDEC3E27970F9F00E3BB25 /* StickersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFDEC3D27970F9F00E3BB25 /* StickersViewController.swift */; };
 		3EFDEC4327970FA300E3BB25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC4227970FA300E3BB25 /* Assets.xcassets */; };
 		3EFDEC4627970FA300E3BB25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC4427970FA300E3BB25 /* LaunchScreen.storyboard */; };
 		3EFDEC5127970FA400E3BB25 /* StickerSelectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFDEC5027970FA400E3BB25 /* StickerSelectionTests.swift */; };
 		3EFDEC5B27970FA400E3BB25 /* StickerSelectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFDEC5A27970FA400E3BB25 /* StickerSelectionUITests.swift */; };
 		3EFDEC5D27970FA400E3BB25 /* StickerSelectionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFDEC5C27970FA400E3BB25 /* StickerSelectionUITestsLaunchTests.swift */; };
+		3EFDEC6B27970FEE00E3BB25 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3EFDEC6A27970FEE00E3BB25 /* SnapKit */; };
+		3EFDECA12797105A00E3BB25 /* futurama31.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC6E2797105800E3BB25 /* futurama31.png */; };
+		3EFDECA22797105A00E3BB25 /* futurama29.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC6F2797105800E3BB25 /* futurama29.png */; };
+		3EFDECA32797105A00E3BB25 /* futurama35.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC702797105800E3BB25 /* futurama35.png */; };
+		3EFDECA42797105A00E3BB25 /* futurama48.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC712797105800E3BB25 /* futurama48.png */; };
+		3EFDECA52797105A00E3BB25 /* futurama44.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC722797105800E3BB25 /* futurama44.png */; };
+		3EFDECA62797105A00E3BB25 /* futurama3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC732797105800E3BB25 /* futurama3.png */; };
+		3EFDECA72797105A00E3BB25 /* futurama20.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC742797105800E3BB25 /* futurama20.png */; };
+		3EFDECA82797105A00E3BB25 /* futurama15.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC752797105800E3BB25 /* futurama15.png */; };
+		3EFDECA92797105A00E3BB25 /* futurama24.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC762797105800E3BB25 /* futurama24.png */; };
+		3EFDECAA2797105A00E3BB25 /* futurama12.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC772797105800E3BB25 /* futurama12.png */; };
+		3EFDECAB2797105A00E3BB25 /* futurama21.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC782797105800E3BB25 /* futurama21.png */; };
+		3EFDECAC2797105A00E3BB25 /* futurama19.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC792797105800E3BB25 /* futurama19.png */; };
+		3EFDECAD2797105A00E3BB25 /* futurama41.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC7A2797105800E3BB25 /* futurama41.png */; };
+		3EFDECAE2797105A00E3BB25 /* futurama22.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC7B2797105800E3BB25 /* futurama22.png */; };
+		3EFDECAF2797105A00E3BB25 /* futurama8.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC7C2797105800E3BB25 /* futurama8.png */; };
+		3EFDECB02797105A00E3BB25 /* futurama42.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC7D2797105900E3BB25 /* futurama42.png */; };
+		3EFDECB12797105A00E3BB25 /* futurama13.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC7E2797105900E3BB25 /* futurama13.png */; };
+		3EFDECB22797105A00E3BB25 /* futurama11.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC7F2797105900E3BB25 /* futurama11.png */; };
+		3EFDECB32797105A00E3BB25 /* futurama50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC802797105900E3BB25 /* futurama50.png */; };
+		3EFDECB42797105A00E3BB25 /* futurama5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC812797105900E3BB25 /* futurama5.png */; };
+		3EFDECB52797105A00E3BB25 /* futurama10.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC822797105900E3BB25 /* futurama10.png */; };
+		3EFDECB62797105A00E3BB25 /* futurama51.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC832797105900E3BB25 /* futurama51.png */; };
+		3EFDECB72797105A00E3BB25 /* futurama28.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC842797105900E3BB25 /* futurama28.png */; };
+		3EFDECB82797105A00E3BB25 /* futurama39.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC852797105900E3BB25 /* futurama39.png */; };
+		3EFDECB92797105A00E3BB25 /* futurama46.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC862797105900E3BB25 /* futurama46.png */; };
+		3EFDECBA2797105A00E3BB25 /* futurama43.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC872797105900E3BB25 /* futurama43.png */; };
+		3EFDECBB2797105A00E3BB25 /* futurama1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC882797105900E3BB25 /* futurama1.png */; };
+		3EFDECBC2797105A00E3BB25 /* futurama37.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC892797105900E3BB25 /* futurama37.png */; };
+		3EFDECBD2797105A00E3BB25 /* futurama47.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC8A2797105900E3BB25 /* futurama47.png */; };
+		3EFDECBE2797105A00E3BB25 /* futurama23.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC8B2797105900E3BB25 /* futurama23.png */; };
+		3EFDECBF2797105A00E3BB25 /* futurama33.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC8C2797105900E3BB25 /* futurama33.png */; };
+		3EFDECC02797105A00E3BB25 /* futurama34.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC8D2797105900E3BB25 /* futurama34.png */; };
+		3EFDECC12797105A00E3BB25 /* futurama2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC8E2797105900E3BB25 /* futurama2.png */; };
+		3EFDECC22797105A00E3BB25 /* futurama4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC8F2797105900E3BB25 /* futurama4.png */; };
+		3EFDECC32797105A00E3BB25 /* futurama49.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC902797105900E3BB25 /* futurama49.png */; };
+		3EFDECC42797105A00E3BB25 /* futurama25.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC912797105900E3BB25 /* futurama25.png */; };
+		3EFDECC52797105A00E3BB25 /* futurama6.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC922797105A00E3BB25 /* futurama6.png */; };
+		3EFDECC62797105A00E3BB25 /* futurama18.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC932797105A00E3BB25 /* futurama18.png */; };
+		3EFDECC72797105A00E3BB25 /* futurama45.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC942797105A00E3BB25 /* futurama45.png */; };
+		3EFDECC82797105A00E3BB25 /* futurama7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC952797105A00E3BB25 /* futurama7.png */; };
+		3EFDECC92797105A00E3BB25 /* futurama38.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC962797105A00E3BB25 /* futurama38.png */; };
+		3EFDECCA2797105A00E3BB25 /* futurama14.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC972797105A00E3BB25 /* futurama14.png */; };
+		3EFDECCB2797105A00E3BB25 /* futurama36.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC982797105A00E3BB25 /* futurama36.png */; };
+		3EFDECCC2797105A00E3BB25 /* futurama30.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC992797105A00E3BB25 /* futurama30.png */; };
+		3EFDECCD2797105A00E3BB25 /* futurama16.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC9A2797105A00E3BB25 /* futurama16.png */; };
+		3EFDECCE2797105A00E3BB25 /* futurama26.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC9B2797105A00E3BB25 /* futurama26.png */; };
+		3EFDECCF2797105A00E3BB25 /* futurama32.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC9C2797105A00E3BB25 /* futurama32.png */; };
+		3EFDECD02797105A00E3BB25 /* futurama40.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC9D2797105A00E3BB25 /* futurama40.png */; };
+		3EFDECD12797105A00E3BB25 /* futurama9.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC9E2797105A00E3BB25 /* futurama9.png */; };
+		3EFDECD22797105A00E3BB25 /* futurama17.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDEC9F2797105A00E3BB25 /* futurama17.png */; };
+		3EFDECD32797105A00E3BB25 /* futurama27.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDECA02797105A00E3BB25 /* futurama27.png */; };
+		3EFDECDB27972CAC00E3BB25 /* StickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFDECDA27972CAC00E3BB25 /* StickerCollectionViewCell.swift */; };
+		3EFDECDE27972CD800E3BB25 /* UICollectionViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFDECDD27972CD800E3BB25 /* UICollectionViewCell+Extension.swift */; };
+		3EFDECE027972DF800E3BB25 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFDECDF27972DF800E3BB25 /* UICollectionView+Extension.swift */; };
+		3EFDECE32797335900E3BB25 /* StickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFDECE22797335900E3BB25 /* StickerManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +94,7 @@
 		3EFDEC3627970F9F00E3BB25 /* StickerSelection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickerSelection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EFDEC3927970F9F00E3BB25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EFDEC3B27970F9F00E3BB25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3EFDEC3D27970F9F00E3BB25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3EFDEC4027970F9F00E3BB25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EFDEC3D27970F9F00E3BB25 /* StickersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickersViewController.swift; sourceTree = "<group>"; };
 		3EFDEC4227970FA300E3BB25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EFDEC4527970FA300E3BB25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EFDEC4727970FA300E3BB25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +103,61 @@
 		3EFDEC5627970FA400E3BB25 /* StickerSelectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StickerSelectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EFDEC5A27970FA400E3BB25 /* StickerSelectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerSelectionUITests.swift; sourceTree = "<group>"; };
 		3EFDEC5C27970FA400E3BB25 /* StickerSelectionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerSelectionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3EFDEC6E2797105800E3BB25 /* futurama31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama31.png; sourceTree = "<group>"; };
+		3EFDEC6F2797105800E3BB25 /* futurama29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama29.png; sourceTree = "<group>"; };
+		3EFDEC702797105800E3BB25 /* futurama35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama35.png; sourceTree = "<group>"; };
+		3EFDEC712797105800E3BB25 /* futurama48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama48.png; sourceTree = "<group>"; };
+		3EFDEC722797105800E3BB25 /* futurama44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama44.png; sourceTree = "<group>"; };
+		3EFDEC732797105800E3BB25 /* futurama3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama3.png; sourceTree = "<group>"; };
+		3EFDEC742797105800E3BB25 /* futurama20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama20.png; sourceTree = "<group>"; };
+		3EFDEC752797105800E3BB25 /* futurama15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama15.png; sourceTree = "<group>"; };
+		3EFDEC762797105800E3BB25 /* futurama24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama24.png; sourceTree = "<group>"; };
+		3EFDEC772797105800E3BB25 /* futurama12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama12.png; sourceTree = "<group>"; };
+		3EFDEC782797105800E3BB25 /* futurama21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama21.png; sourceTree = "<group>"; };
+		3EFDEC792797105800E3BB25 /* futurama19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama19.png; sourceTree = "<group>"; };
+		3EFDEC7A2797105800E3BB25 /* futurama41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama41.png; sourceTree = "<group>"; };
+		3EFDEC7B2797105800E3BB25 /* futurama22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama22.png; sourceTree = "<group>"; };
+		3EFDEC7C2797105800E3BB25 /* futurama8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama8.png; sourceTree = "<group>"; };
+		3EFDEC7D2797105900E3BB25 /* futurama42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama42.png; sourceTree = "<group>"; };
+		3EFDEC7E2797105900E3BB25 /* futurama13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama13.png; sourceTree = "<group>"; };
+		3EFDEC7F2797105900E3BB25 /* futurama11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama11.png; sourceTree = "<group>"; };
+		3EFDEC802797105900E3BB25 /* futurama50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama50.png; sourceTree = "<group>"; };
+		3EFDEC812797105900E3BB25 /* futurama5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama5.png; sourceTree = "<group>"; };
+		3EFDEC822797105900E3BB25 /* futurama10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama10.png; sourceTree = "<group>"; };
+		3EFDEC832797105900E3BB25 /* futurama51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama51.png; sourceTree = "<group>"; };
+		3EFDEC842797105900E3BB25 /* futurama28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama28.png; sourceTree = "<group>"; };
+		3EFDEC852797105900E3BB25 /* futurama39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama39.png; sourceTree = "<group>"; };
+		3EFDEC862797105900E3BB25 /* futurama46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama46.png; sourceTree = "<group>"; };
+		3EFDEC872797105900E3BB25 /* futurama43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama43.png; sourceTree = "<group>"; };
+		3EFDEC882797105900E3BB25 /* futurama1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama1.png; sourceTree = "<group>"; };
+		3EFDEC892797105900E3BB25 /* futurama37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama37.png; sourceTree = "<group>"; };
+		3EFDEC8A2797105900E3BB25 /* futurama47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama47.png; sourceTree = "<group>"; };
+		3EFDEC8B2797105900E3BB25 /* futurama23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama23.png; sourceTree = "<group>"; };
+		3EFDEC8C2797105900E3BB25 /* futurama33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama33.png; sourceTree = "<group>"; };
+		3EFDEC8D2797105900E3BB25 /* futurama34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama34.png; sourceTree = "<group>"; };
+		3EFDEC8E2797105900E3BB25 /* futurama2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama2.png; sourceTree = "<group>"; };
+		3EFDEC8F2797105900E3BB25 /* futurama4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama4.png; sourceTree = "<group>"; };
+		3EFDEC902797105900E3BB25 /* futurama49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama49.png; sourceTree = "<group>"; };
+		3EFDEC912797105900E3BB25 /* futurama25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama25.png; sourceTree = "<group>"; };
+		3EFDEC922797105A00E3BB25 /* futurama6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama6.png; sourceTree = "<group>"; };
+		3EFDEC932797105A00E3BB25 /* futurama18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama18.png; sourceTree = "<group>"; };
+		3EFDEC942797105A00E3BB25 /* futurama45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama45.png; sourceTree = "<group>"; };
+		3EFDEC952797105A00E3BB25 /* futurama7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama7.png; sourceTree = "<group>"; };
+		3EFDEC962797105A00E3BB25 /* futurama38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama38.png; sourceTree = "<group>"; };
+		3EFDEC972797105A00E3BB25 /* futurama14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama14.png; sourceTree = "<group>"; };
+		3EFDEC982797105A00E3BB25 /* futurama36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama36.png; sourceTree = "<group>"; };
+		3EFDEC992797105A00E3BB25 /* futurama30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama30.png; sourceTree = "<group>"; };
+		3EFDEC9A2797105A00E3BB25 /* futurama16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama16.png; sourceTree = "<group>"; };
+		3EFDEC9B2797105A00E3BB25 /* futurama26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama26.png; sourceTree = "<group>"; };
+		3EFDEC9C2797105A00E3BB25 /* futurama32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama32.png; sourceTree = "<group>"; };
+		3EFDEC9D2797105A00E3BB25 /* futurama40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama40.png; sourceTree = "<group>"; };
+		3EFDEC9E2797105A00E3BB25 /* futurama9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama9.png; sourceTree = "<group>"; };
+		3EFDEC9F2797105A00E3BB25 /* futurama17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama17.png; sourceTree = "<group>"; };
+		3EFDECA02797105A00E3BB25 /* futurama27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurama27.png; sourceTree = "<group>"; };
+		3EFDECDA27972CAC00E3BB25 /* StickerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerCollectionViewCell.swift; sourceTree = "<group>"; };
+		3EFDECDD27972CD800E3BB25 /* UICollectionViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Extension.swift"; sourceTree = "<group>"; };
+		3EFDECDF27972DF800E3BB25 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
+		3EFDECE22797335900E3BB25 /* StickerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +165,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EFDEC6B27970FEE00E3BB25 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,13 +209,11 @@
 		3EFDEC3827970F9F00E3BB25 /* StickerSelection */ = {
 			isa = PBXGroup;
 			children = (
-				3EFDEC3927970F9F00E3BB25 /* AppDelegate.swift */,
-				3EFDEC3B27970F9F00E3BB25 /* SceneDelegate.swift */,
-				3EFDEC3D27970F9F00E3BB25 /* ViewController.swift */,
-				3EFDEC3F27970F9F00E3BB25 /* Main.storyboard */,
-				3EFDEC4227970FA300E3BB25 /* Assets.xcassets */,
-				3EFDEC4427970FA300E3BB25 /* LaunchScreen.storyboard */,
-				3EFDEC4727970FA300E3BB25 /* Info.plist */,
+				3EFDECDC27972CBB00E3BB25 /* Extensions */,
+				3EFDECD7279715C700E3BB25 /* StickersView */,
+				3EFDECD6279710BA00E3BB25 /* AppUtils */,
+				3EFDECD42797107C00E3BB25 /* AppDelegates */,
+				3EFDEC6C2797102700E3BB25 /* Assets */,
 			);
 			path = StickerSelection;
 			sourceTree = "<group>";
@@ -127,6 +235,134 @@
 			path = StickerSelectionUITests;
 			sourceTree = "<group>";
 		};
+		3EFDEC6C2797102700E3BB25 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3EFDEC6D2797104300E3BB25 /* Stickers */,
+				3EFDEC4227970FA300E3BB25 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		3EFDEC6D2797104300E3BB25 /* Stickers */ = {
+			isa = PBXGroup;
+			children = (
+				3EFDEC882797105900E3BB25 /* futurama1.png */,
+				3EFDEC8E2797105900E3BB25 /* futurama2.png */,
+				3EFDEC732797105800E3BB25 /* futurama3.png */,
+				3EFDEC8F2797105900E3BB25 /* futurama4.png */,
+				3EFDEC812797105900E3BB25 /* futurama5.png */,
+				3EFDEC922797105A00E3BB25 /* futurama6.png */,
+				3EFDEC952797105A00E3BB25 /* futurama7.png */,
+				3EFDEC7C2797105800E3BB25 /* futurama8.png */,
+				3EFDEC9E2797105A00E3BB25 /* futurama9.png */,
+				3EFDEC822797105900E3BB25 /* futurama10.png */,
+				3EFDEC7F2797105900E3BB25 /* futurama11.png */,
+				3EFDEC772797105800E3BB25 /* futurama12.png */,
+				3EFDEC7E2797105900E3BB25 /* futurama13.png */,
+				3EFDEC972797105A00E3BB25 /* futurama14.png */,
+				3EFDEC752797105800E3BB25 /* futurama15.png */,
+				3EFDEC9A2797105A00E3BB25 /* futurama16.png */,
+				3EFDEC9F2797105A00E3BB25 /* futurama17.png */,
+				3EFDEC932797105A00E3BB25 /* futurama18.png */,
+				3EFDEC792797105800E3BB25 /* futurama19.png */,
+				3EFDEC742797105800E3BB25 /* futurama20.png */,
+				3EFDEC782797105800E3BB25 /* futurama21.png */,
+				3EFDEC7B2797105800E3BB25 /* futurama22.png */,
+				3EFDEC8B2797105900E3BB25 /* futurama23.png */,
+				3EFDEC762797105800E3BB25 /* futurama24.png */,
+				3EFDEC912797105900E3BB25 /* futurama25.png */,
+				3EFDEC9B2797105A00E3BB25 /* futurama26.png */,
+				3EFDECA02797105A00E3BB25 /* futurama27.png */,
+				3EFDEC842797105900E3BB25 /* futurama28.png */,
+				3EFDEC6F2797105800E3BB25 /* futurama29.png */,
+				3EFDEC992797105A00E3BB25 /* futurama30.png */,
+				3EFDEC6E2797105800E3BB25 /* futurama31.png */,
+				3EFDEC9C2797105A00E3BB25 /* futurama32.png */,
+				3EFDEC8C2797105900E3BB25 /* futurama33.png */,
+				3EFDEC8D2797105900E3BB25 /* futurama34.png */,
+				3EFDEC702797105800E3BB25 /* futurama35.png */,
+				3EFDEC982797105A00E3BB25 /* futurama36.png */,
+				3EFDEC892797105900E3BB25 /* futurama37.png */,
+				3EFDEC962797105A00E3BB25 /* futurama38.png */,
+				3EFDEC852797105900E3BB25 /* futurama39.png */,
+				3EFDEC9D2797105A00E3BB25 /* futurama40.png */,
+				3EFDEC7A2797105800E3BB25 /* futurama41.png */,
+				3EFDEC7D2797105900E3BB25 /* futurama42.png */,
+				3EFDEC872797105900E3BB25 /* futurama43.png */,
+				3EFDEC722797105800E3BB25 /* futurama44.png */,
+				3EFDEC942797105A00E3BB25 /* futurama45.png */,
+				3EFDEC862797105900E3BB25 /* futurama46.png */,
+				3EFDEC8A2797105900E3BB25 /* futurama47.png */,
+				3EFDEC712797105800E3BB25 /* futurama48.png */,
+				3EFDEC902797105900E3BB25 /* futurama49.png */,
+				3EFDEC802797105900E3BB25 /* futurama50.png */,
+				3EFDEC832797105900E3BB25 /* futurama51.png */,
+			);
+			path = Stickers;
+			sourceTree = "<group>";
+		};
+		3EFDECD42797107C00E3BB25 /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				3EFDEC3B27970F9F00E3BB25 /* SceneDelegate.swift */,
+				3EFDEC3927970F9F00E3BB25 /* AppDelegate.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		3EFDECD6279710BA00E3BB25 /* AppUtils */ = {
+			isa = PBXGroup;
+			children = (
+				3EFDEC4727970FA300E3BB25 /* Info.plist */,
+				3EFDEC4427970FA300E3BB25 /* LaunchScreen.storyboard */,
+			);
+			path = AppUtils;
+			sourceTree = "<group>";
+		};
+		3EFDECD7279715C700E3BB25 /* StickersView */ = {
+			isa = PBXGroup;
+			children = (
+				3EFDECE12797333B00E3BB25 /* DataModel */,
+				3EFDECD927972C7D00E3BB25 /* CollectionViewCell */,
+				3EFDECD827972C7200E3BB25 /* Controller */,
+			);
+			path = StickersView;
+			sourceTree = "<group>";
+		};
+		3EFDECD827972C7200E3BB25 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3EFDEC3D27970F9F00E3BB25 /* StickersViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3EFDECD927972C7D00E3BB25 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3EFDECDA27972CAC00E3BB25 /* StickerCollectionViewCell.swift */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		3EFDECDC27972CBB00E3BB25 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3EFDECDD27972CD800E3BB25 /* UICollectionViewCell+Extension.swift */,
+				3EFDECDF27972DF800E3BB25 /* UICollectionView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3EFDECE12797333B00E3BB25 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				3EFDECE22797335900E3BB25 /* StickerManager.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +379,9 @@
 			dependencies = (
 			);
 			name = StickerSelection;
+			packageProductDependencies = (
+				3EFDEC6A27970FEE00E3BB25 /* SnapKit */,
+			);
 			productName = StickerSelection;
 			productReference = 3EFDEC3627970F9F00E3BB25 /* StickerSelection.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +454,9 @@
 				Base,
 			);
 			mainGroup = 3EFDEC2D27970F9E00E3BB25;
+			packageReferences = (
+				3EFDEC6927970FEE00E3BB25 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 3EFDEC3727970F9F00E3BB25 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,9 +473,59 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EFDECB52797105A00E3BB25 /* futurama10.png in Resources */,
+				3EFDECCE2797105A00E3BB25 /* futurama26.png in Resources */,
+				3EFDECA72797105A00E3BB25 /* futurama20.png in Resources */,
+				3EFDECB02797105A00E3BB25 /* futurama42.png in Resources */,
+				3EFDECCB2797105A00E3BB25 /* futurama36.png in Resources */,
+				3EFDECCF2797105A00E3BB25 /* futurama32.png in Resources */,
+				3EFDECB32797105A00E3BB25 /* futurama50.png in Resources */,
+				3EFDECC62797105A00E3BB25 /* futurama18.png in Resources */,
+				3EFDECCA2797105A00E3BB25 /* futurama14.png in Resources */,
+				3EFDECBB2797105A00E3BB25 /* futurama1.png in Resources */,
+				3EFDECA22797105A00E3BB25 /* futurama29.png in Resources */,
+				3EFDECD12797105A00E3BB25 /* futurama9.png in Resources */,
+				3EFDECA92797105A00E3BB25 /* futurama24.png in Resources */,
+				3EFDECC12797105A00E3BB25 /* futurama2.png in Resources */,
+				3EFDECA62797105A00E3BB25 /* futurama3.png in Resources */,
+				3EFDECBF2797105A00E3BB25 /* futurama33.png in Resources */,
+				3EFDECAA2797105A00E3BB25 /* futurama12.png in Resources */,
+				3EFDECC02797105A00E3BB25 /* futurama34.png in Resources */,
+				3EFDECC22797105A00E3BB25 /* futurama4.png in Resources */,
+				3EFDECBE2797105A00E3BB25 /* futurama23.png in Resources */,
+				3EFDECC92797105A00E3BB25 /* futurama38.png in Resources */,
+				3EFDECA52797105A00E3BB25 /* futurama44.png in Resources */,
+				3EFDECA12797105A00E3BB25 /* futurama31.png in Resources */,
+				3EFDECD32797105A00E3BB25 /* futurama27.png in Resources */,
+				3EFDECBD2797105A00E3BB25 /* futurama47.png in Resources */,
+				3EFDECBC2797105A00E3BB25 /* futurama37.png in Resources */,
+				3EFDECAB2797105A00E3BB25 /* futurama21.png in Resources */,
+				3EFDECD02797105A00E3BB25 /* futurama40.png in Resources */,
+				3EFDECC52797105A00E3BB25 /* futurama6.png in Resources */,
+				3EFDECC42797105A00E3BB25 /* futurama25.png in Resources */,
+				3EFDECBA2797105A00E3BB25 /* futurama43.png in Resources */,
+				3EFDECB82797105A00E3BB25 /* futurama39.png in Resources */,
+				3EFDECA32797105A00E3BB25 /* futurama35.png in Resources */,
 				3EFDEC4627970FA300E3BB25 /* LaunchScreen.storyboard in Resources */,
+				3EFDECB42797105A00E3BB25 /* futurama5.png in Resources */,
+				3EFDECAF2797105A00E3BB25 /* futurama8.png in Resources */,
+				3EFDECAC2797105A00E3BB25 /* futurama19.png in Resources */,
+				3EFDECA42797105A00E3BB25 /* futurama48.png in Resources */,
 				3EFDEC4327970FA300E3BB25 /* Assets.xcassets in Resources */,
-				3EFDEC4127970F9F00E3BB25 /* Main.storyboard in Resources */,
+				3EFDECB12797105A00E3BB25 /* futurama13.png in Resources */,
+				3EFDECC32797105A00E3BB25 /* futurama49.png in Resources */,
+				3EFDECB62797105A00E3BB25 /* futurama51.png in Resources */,
+				3EFDECC82797105A00E3BB25 /* futurama7.png in Resources */,
+				3EFDECB22797105A00E3BB25 /* futurama11.png in Resources */,
+				3EFDECAD2797105A00E3BB25 /* futurama41.png in Resources */,
+				3EFDECA82797105A00E3BB25 /* futurama15.png in Resources */,
+				3EFDECC72797105A00E3BB25 /* futurama45.png in Resources */,
+				3EFDECAE2797105A00E3BB25 /* futurama22.png in Resources */,
+				3EFDECCC2797105A00E3BB25 /* futurama30.png in Resources */,
+				3EFDECB72797105A00E3BB25 /* futurama28.png in Resources */,
+				3EFDECD22797105A00E3BB25 /* futurama17.png in Resources */,
+				3EFDECB92797105A00E3BB25 /* futurama46.png in Resources */,
+				3EFDECCD2797105A00E3BB25 /* futurama16.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +550,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EFDEC3E27970F9F00E3BB25 /* ViewController.swift in Sources */,
+				3EFDECE32797335900E3BB25 /* StickerManager.swift in Sources */,
+				3EFDECE027972DF800E3BB25 /* UICollectionView+Extension.swift in Sources */,
+				3EFDEC3E27970F9F00E3BB25 /* StickersViewController.swift in Sources */,
 				3EFDEC3A27970F9F00E3BB25 /* AppDelegate.swift in Sources */,
+				3EFDECDB27972CAC00E3BB25 /* StickerCollectionViewCell.swift in Sources */,
+				3EFDECDE27972CD800E3BB25 /* UICollectionViewCell+Extension.swift in Sources */,
 				3EFDEC3C27970F9F00E3BB25 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +593,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3EFDEC3F27970F9F00E3BB25 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3EFDEC4027970F9F00E3BB25 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3EFDEC4427970FA300E3BB25 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -440,10 +728,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = StickerSelection/Info.plist;
+				INFOPLIST_FILE = StickerSelection/AppUtils/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sticker Selection";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,7 +744,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -467,10 +756,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = StickerSelection/Info.plist;
+				INFOPLIST_FILE = StickerSelection/AppUtils/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sticker Selection";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -482,7 +772,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -618,6 +908,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3EFDEC6927970FEE00E3BB25 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3EFDEC6A27970FEE00E3BB25 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3EFDEC6927970FEE00E3BB25 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3EFDEC2E27970F9E00E3BB25 /* Project object */;
 }

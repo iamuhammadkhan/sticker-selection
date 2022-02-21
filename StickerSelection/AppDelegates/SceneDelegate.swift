@@ -11,11 +11,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
-
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+        
+        changeTheRoot(session, connectionOptions)
+        
         guard let _ = (scene as? UIWindowScene) else { return }
     }
 
@@ -47,6 +49,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // to restore the scene back to its current state.
     }
 
-
+    /// To change the root view controller to custom navigation
+    private func changeTheRoot(_ session: UISceneSession, _ connectionOptions: UIScene.ConnectionOptions) {
+        let rootVC = StickersViewController()
+        let rootNC = UINavigationController(rootViewController: rootVC)
+        let windowScene = UIWindowScene(session: session, connectionOptions: connectionOptions)
+        self.window = UIWindow(windowScene: windowScene)
+        self.window?.rootViewController = rootNC
+        self.window?.makeKeyAndVisible()
+    }
 }
-
